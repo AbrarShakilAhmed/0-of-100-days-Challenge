@@ -12,6 +12,5 @@ function NameCurrector (name){
     console.log(correctName)
 }
 
-
 const cleanedName = removeSpecialCharacters(UserInputName);
 NameCurrector(cleanedName)
