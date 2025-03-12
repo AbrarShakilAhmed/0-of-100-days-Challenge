@@ -1,4 +1,8 @@
 const UserInputName = "e2xample 34hasan   #";
+
+function removeSpecialCharacters(name) {
+    return name.replace(/[^a-zA-Z\s]/g, '');
+}
 function NameCurrector (name){
     let correctName = name.trim()
     correctName = correctName.split(" ")
@@ -7,9 +11,7 @@ function NameCurrector (name){
     correctName = correctName[0] + " " + correctName[1]
     console.log(correctName)
 }
-function removeSpecialCharacters(name) {
-    return name.replace(/[^a-zA-Z\s]/g, '');
-}
+
 
 const cleanedName = removeSpecialCharacters(UserInputName);
 NameCurrector(cleanedName)
