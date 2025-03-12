@@ -1,5 +1,4 @@
 import readline from 'readline';
-
 export default function print() {
     const rl = readline.createInterface({
         input: process.stdin,
