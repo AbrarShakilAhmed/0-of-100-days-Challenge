@@ -14,3 +14,5 @@ function NameCurrector (name){
 
 const cleanedName = removeSpecialCharacters(UserInputName);
 NameCurrector(cleanedName)
+```
+    aohgias gjsrgsbio r grfg rfgfd gfg
