@@ -31,7 +31,7 @@ export default function print() {
                     default:
                         console.log('\nInvalid Operator');
                 }
-                console.log("\n----------------------------------------")
+                console.log("\n----------------------------------------\n")
                 rl.close();
             });
         });
