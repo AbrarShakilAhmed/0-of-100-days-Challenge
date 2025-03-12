@@ -1,0 +1,13 @@
+{
+  "name": "node-js-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Abrar Shakil",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "run",
+    "start": "node main.js"
+  }
+}
